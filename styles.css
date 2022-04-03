@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://subtlepatterns.com/patterns/geometry2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.btn:focus{
+    background: rgb(197, 197, 197);
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: rgb(128, 128, 128);
+}
+a,
+a:hover{
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+.heart-icon:focus{
+    outline: none !important;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    color: red;
+}
+input[type="text"],
+input[type="text"]:focus{
+    outline: 0 none;
+    border: none;
+}
